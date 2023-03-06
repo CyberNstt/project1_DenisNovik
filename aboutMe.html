@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>About Novik Designer</title>
+	<link rel="icon" type="image/x-icon" href="icons/Search.png">
+	<link rel="stylesheet" href="CSS/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="LimiterAll">
+
+		<header class="Header sameSections">
+			<nav class="HeaderMenu">
+				<div class="HeaderMenuMobile">
+					<button onclick="document.getElementById('HeaderMenuMobilePopup').style.display='flex';"
+						class="HeaderMenuMobileBurger">
+						<img src="icons/Burger.svg" alt="Popup">
+					</button>
+					<div id="HeaderMenuMobilePopup">
+						<ul class="HeaderMenuMobilePopupList">
+							<li><a href="index.html">Home</a></li>
+							<li class="Active"><a href="aboutMe.html">About me</a></li>
+							<li><a href="skills.html">Skills</a></li>
+							<li><a href="portfolio.html">Portfolio</a></li>
+							<li><a href="contacts.html">Contacts</a></li>
+						</ul>
+						<div class="HeaderMenuMobilePopupCloser">
+							<button onclick="document.getElementById('HeaderMenuMobilePopup').style.display='none';"><img
+									class="HeaderMenuMobilePopupCloserImg" src="icons/krestik.svg" alt="Krestik"></button>
+							<div class="HeaderMenuMobilePopupCloserLang"><button id="ru">RU </button><span id="slash"> |
+								</span><button id="eng">ENG</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<ul class="HeaderMenuDesktop">
+					<li><a href="index.html">Home</a></li>
+					<li class="Active"><a href="aboutMe.html">About me</a></li>
+					<li><a href="skills.html">Skills</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="contacts.html">Contacts</a></li>
+				</ul>
+			</nav>
+			<div class="HeaderInfo">
+				<h1>Denis
+					<span>Novik</span>
+				</h1>
+				<p class="HeaderInfoAbout">UX | UI designer <br>
+					24 years old, Minsk</p>
+				<div class="HeaderInfoLang"><button id="ru">RU</button><span id="slash"> | </span><button id="eng">ENG</button>
+				</div>
+			</div>
+			<div class="HeaderImg">
+				<img class="HeaderImgBig" src="Imgs/Man.png" alt="Man">
+				<img class="HeaderImgSmall" src="Imgs/Man_small.png" alt="Man">
+			</div>
+
+		</header>
+
+		<section class="About">
+			<div class="AboutLimiter sameSections">
+				<h2>About me</h2>
+				<div class="AboutLimiterInfo">
+					<p>Hi, I'm Denis – UX/UI designer from Minsk. <br>
+						I'm interested in design and everything connected with it.</p>
+
+					<p>I'm studying at courses "Web and mobile design <br>
+						interfaces" in IT-Academy.</p>
+
+					<p>Ready to implement excellent projects <br>
+						with wonderful people.</p>
+				</div>
+				<div class="AboutLimiterInfoMobile">
+					<p>Hi, I'm Denis – UX/UI designer from Minsk.
+						I'm interested in design and everything connected with it.</p>
+
+					<p>I'm studying at courses "Web and mobile design
+						interfaces" in IT-Academy.</p>
+
+					<p>Ready to implement excellent projects
+						with wonderful people.</p>
+				</div>
+
+			</div>
+		</section>
+
+		<footer class="Footer sameSections">
+			<h2>Contacts</h2>
+			<p class="FooterWelcome">Want to know more or just chat? You are welcome!</p>
+			<button>Send message</button>
+			<div class="FooterLinks">
+				<a target="_blank" href="https://ru.linkedin.com/"><img src="icons/Contacts/LinkedIn.svg" alt="LinkedIn"></a>
+				<a target="_blank" href="https://www.instagram.com/"><img src="icons/Contacts/Instagram.svg"
+						alt="Instagram"></a>
+				<a target="_blank" href="https://www.behance.net/galleries"><img src="icons/Contacts/Behance.svg"
+						alt="Behance"></a>
+				<a target="_blank" href="https://dribbble.com/"><img src="icons/Contacts/Dribble.svg" alt="Dribble"></a>
+			</div>
+
+			<p class="FooterLike">Like me on<br>
+				LinkedIn, Instagram, Behance, Dribble</p>
+
+		</footer>
+	</div>
+</body>
+
+</html>
