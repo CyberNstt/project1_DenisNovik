@@ -441,6 +441,9 @@ p {
 	border-radius: 7px;
 	background: #d1c8c8;
 }
+.FooterLinks a:nth-child(2):hover {
+	border-radius: 14px;
+}
 .FooterLinks a:last-child:hover {
 	border-radius: 50%;
 }
