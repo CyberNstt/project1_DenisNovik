@@ -189,7 +189,7 @@ p {
 	margin: 0 0 0 auto;
 }
 #HeaderMenuMobilePopup {
-	position: absolute;
+	position: fixed;
 	width: 100vw;
 	border: 1px solid black;
 	padding: 68px 28px 57px 26px;
