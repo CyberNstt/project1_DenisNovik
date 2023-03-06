@@ -438,6 +438,9 @@ p {
 	border-radius: 7px;
 	background: #d1c8c8;
 }
+.FooterLinks a:last-child:hover {
+	border-radius: 50%;
+}
 .FooterLike {
 	max-width: 243px;
 	margin: 0 auto;
