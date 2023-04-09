@@ -121,9 +121,8 @@ p {
 }
 .HeaderMenu a {
 	color: #828282;
-	transition: 0.3s easy-in-out;
 }
-.HeaderMenu a:{
+.HeaderMenu a:hover {
 	text-decoration: underline;
 }
 .Active a {
@@ -166,7 +165,6 @@ p {
 }
 #ru {
 	color: #828282;
-	transition: 0.3s easy-in-out;
 }
 #ru:hover {
 	text-decoration: underline 3px solid black;
@@ -176,7 +174,6 @@ p {
 }
 #eng {
 	font-family: 'Gilroy-Bold';
-	transition: 0.3s easy-in-out;
 }
 #eng:hover {
 	text-decoration: underline 3px solid black;
@@ -192,9 +189,8 @@ p {
 	margin: 0 0 0 auto;
 }
 #HeaderMenuMobilePopup {
-	position: fixed;
+	position: absolute;
 	width: 100vw;
-	border: 1px solid black;
 	padding: 68px 28px 57px 26px;
 	background: #FFF;
 	z-index: 5;
@@ -411,7 +407,7 @@ p {
 	color: white;
 	font-family: 'Gilroy-Bold';
 	font-size: 18px;
-	transition: 0.3s easy-in-out;
+	transition: 0.3s;
 	margin: 0 auto 85px;
 }
 @media (max-width: 600px) {
@@ -435,7 +431,7 @@ p {
 	margin: 0 auto 45px;
 	display: flex;
 	justify-content: space-between;
-	transition: 0.3s easy-in-out;
+	transition: 0.3s;
 }
 .FooterLinks a:hover {
 	border-radius: 7px;
